@@ -19,3 +19,7 @@ explicitly declared using ``in``, ``out`` and ``inout`` keywords.
   * ``Is``, ``IsNot``, ``In``, and ``NotIn`` are not supported
 
     >>> "abd\
+
+     2:  Q accept iff(C, x, y)    # "if-function"
+
+    equivalent to ``k=list(od)[-1]; v=od[k]; del od[k]; return (k,v)``.
